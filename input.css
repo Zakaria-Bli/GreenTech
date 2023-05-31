@@ -54,7 +54,7 @@ body {
   }
 
   form .input-container {
-    @apply flex justify-evenly ph:flex-col items-center;
+    @apply flex justify-center gap-x-60 ph:flex-col items-center;
   }
 
   form .input-container div {

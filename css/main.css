@@ -651,7 +651,9 @@ video {
 form .input-container{
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  -moz-column-gap: 15rem;
+       column-gap: 15rem;
 }
 
 @media (max-width: 767px){
@@ -897,6 +899,11 @@ body {
 }
 
 @media (max-width: 767px){
+  .ph\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .ph\:hidden{
     display: none;
   }

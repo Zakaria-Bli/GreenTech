@@ -8,12 +8,15 @@
     <title>GreenTech inscription</title>
   </head>
   <body>
-    <div class="container flex justify-between items-center mb-16 mt-6">
-      <h3 class="text-white text-sm max-w-md ph:text-center">
-        Le Ministère de l’économie de la connaissance, des startups et des
-        micro-entreprises et le Ministère de l’Environnement et des énergies
-        renouvelables organisent le
-      </h3>
+    <div
+      class="container flex justify-between items-center mb-16 mt-6 ph:text-center"
+    >
+      <h1 class="text-white text-6xl uppercase font-bold mb-4 ph:mx-auto">
+        <a href="./index.html"
+          >Greentech <br />
+          <span class="text-Color-Light-Green font-light">Program</span></a
+        >
+      </h1>
       <div>
         <img class="w-20 ph:hidden" src="./assets/drawing.png.png" alt="Logo" />
       </div>
@@ -24,7 +27,7 @@
     >
       <div class="input-container">
         <div>
-          <label for="entry.1735832692">Nom et Prénom</label>
+          <label for="entry.1735832692">Full name</label>
           <input
             type="text"
             id="entry.1735832692"
@@ -33,7 +36,7 @@
           />
         </div>
         <div>
-          <label for="entry.469213681">Numéro de téléphone</label>
+          <label for="entry.469213681">Phone number</label>
           <input
             type="number"
             id="entry.469213681"
@@ -44,7 +47,7 @@
       </div>
       <div class="input-container">
         <div>
-          <label for="entry.1798686432">Adresse Email</label>
+          <label for="entry.1798686432">Email address</label>
           <input
             type="email"
             id="entry.1798686432"
@@ -53,7 +56,7 @@
           />
         </div>
         <div>
-          <label for="entry.1270034344">Adresse physique</label>
+          <label for="entry.1270034344">Physical address</label>
           <input
             type="text"
             id="entry.1270034344"
@@ -64,7 +67,7 @@
       </div>
       <div class="input-container">
         <div>
-          <label for="entry.1895983621">Nom du projet</label>
+          <label for="entry.1895983621">Project name</label>
           <input
             type="text"
             id="entry.1895983621"
@@ -73,15 +76,19 @@
           />
         </div>
         <div>
-          <label for="entry.2126677106">Presentation du projet</label>
-          <textarea name="entry.2126677106" id="entry.2126677106"></textarea>
+          <label for="entry.2126677106">Project description</label>
+          <textarea
+            name="entry.2126677106"
+            id="entry.2126677106"
+            required
+          ></textarea>
         </div>
       </div>
       <div class="input-container">
         <div>
           <label for="entry.1155624454"
-            >Lien du photo ou video <br />
-            du prototype</label
+            >Link to prototype's picture <br />
+            or video</label
           >
           <input
             type="text"

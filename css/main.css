@@ -897,6 +897,10 @@ body {
 }
 
 @media (max-width: 767px){
+  .ph\:hidden{
+    display: none;
+  }
+
   .ph\:flex-col{
     flex-direction: column;
   }
@@ -907,5 +911,9 @@ body {
 
   .ph\:justify-center{
     justify-content: center;
+  }
+
+  .ph\:text-center{
+    text-align: center;
   }
 }
